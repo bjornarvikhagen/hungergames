@@ -1,0 +1,18 @@
+name: MCHungerGames
+version: '${project.version}'
+main: com.mchg.plugin.HungerGames
+api-version: '1.20'
+authors: [bjornarvikhagen]
+description: A Minecraft Hunger Games plugin
+commands:
+  hg:
+    description: Main command for HungerGames
+    usage: /<command> [join|leave|start|stop|addbot|addbots|clearbots]
+    aliases: [hungergames]
+permissions:
+  hungergames.admin:
+    description: Allows access to admin commands
+    default: op
+  hungergames.play:
+    description: Allows players to join games
+    default: true 

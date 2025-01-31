@@ -1,0 +1,99 @@
+# Loot table configuration for Hunger Games
+# Each table has items with weights and amount ranges
+# Higher weight = more common
+
+cornucopia:
+  diamond_sword:
+    material: DIAMOND_SWORD
+    weight: 5
+    min-amount: 1
+    max-amount: 1
+    enchantments:
+      DAMAGE_ALL: 1
+  
+  iron_sword:
+    material: IRON_SWORD
+    weight: 15
+    min-amount: 1
+    max-amount: 1
+  
+  iron_armor:
+    material: IRON_CHESTPLATE
+    weight: 10
+    min-amount: 1
+    max-amount: 1
+  
+  bow:
+    material: BOW
+    weight: 10
+    min-amount: 1
+    max-amount: 1
+  
+  arrows:
+    material: ARROW
+    weight: 20
+    min-amount: 8
+    max-amount: 16
+  
+  golden_apple:
+    material: GOLDEN_APPLE
+    weight: 8
+    min-amount: 1
+    max-amount: 2
+
+regular:
+  stone_sword:
+    material: STONE_SWORD
+    weight: 20
+    min-amount: 1
+    max-amount: 1
+  
+  chainmail:
+    material: CHAINMAIL_CHESTPLATE
+    weight: 15
+    min-amount: 1
+    max-amount: 1
+  
+  food:
+    material: COOKED_BEEF
+    weight: 25
+    min-amount: 2
+    max-amount: 4
+  
+  utility:
+    material: FISHING_ROD
+    weight: 15
+    min-amount: 1
+    max-amount: 1
+  
+  healing:
+    material: POTION
+    weight: 10
+    min-amount: 1
+    max-amount: 1
+    potion-type: INSTANT_HEAL
+
+basic:
+  wooden_sword:
+    material: WOODEN_SWORD
+    weight: 25
+    min-amount: 1
+    max-amount: 1
+  
+  leather_armor:
+    material: LEATHER_CHESTPLATE
+    weight: 20
+    min-amount: 1
+    max-amount: 1
+  
+  basic_food:
+    material: BREAD
+    weight: 30
+    min-amount: 2
+    max-amount: 4
+  
+  basic_utility:
+    material: FLINT_AND_STEEL
+    weight: 15
+    min-amount: 1
+    max-amount: 1 

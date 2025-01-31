@@ -1,0 +1,17 @@
+game:
+  countdown-seconds: 30
+  grace-period-seconds: 30
+  border-shrink-minutes: 10
+  min-players: 2
+  max-players: 24
+world:
+  spawn-platform-radius: 50
+  max-spawn-platforms: 24
+  border:
+    start-size: 200
+    end-size: 50
+    damage: 1.0
+rewards:
+  kill:
+    health: 6.0
+    speed-duration: 100 
